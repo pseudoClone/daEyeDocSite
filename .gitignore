@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# SvelteKit/Netlify Build outputs
+.svelte-kit/
+.netlify/
+build/
+
+# Environment variables (Safety first!)
+.env
+.env.*
+!.env.example
+
+# Editor folders
+.vscode/
+.DS_Store
